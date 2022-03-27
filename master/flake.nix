@@ -11,6 +11,7 @@
   inputs.src-ptrace-master.ref   = "refs/heads/master";
   inputs.src-ptrace-master.owner = "ba0f3";
   inputs.src-ptrace-master.repo  = "ptrace.nim";
+  inputs.src-ptrace-master.dir   = "";
   inputs.src-ptrace-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

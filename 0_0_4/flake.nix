@@ -11,6 +11,7 @@
   inputs.src-ptrace-0_0_4.ref   = "refs/tags/0.0.4";
   inputs.src-ptrace-0_0_4.owner = "ba0f3";
   inputs.src-ptrace-0_0_4.repo  = "ptrace.nim";
+  inputs.src-ptrace-0_0_4.dir   = "";
   inputs.src-ptrace-0_0_4.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
