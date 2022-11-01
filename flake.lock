@@ -23,11 +23,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1662096612,
-        "narHash": "sha256-R+Q8l5JuyJryRPdiIaYpO5O3A55rT+/pItBrKcy7LM4=",
+        "lastModified": 1667110639,
+        "narHash": "sha256-4FbPESZ5LbqQxkJJJBAfk/zKgF9h/4kyUwjjpJwYlbc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "21de2b973f9fee595a7a1ac4693efff791245c34",
+        "rev": "f38a1f04d1bec1feb61fd101a0539ae2002a7087",
         "type": "github"
       },
       "original": {
@@ -47,11 +47,11 @@
       },
       "locked": {
         "dir": "0_0_2",
-        "lastModified": 1662245853,
-        "narHash": "sha256-u9ubhGjqDMVG0Eeg/WilPnw2VLnp7K967fGJgVn1jqM=",
+        "lastModified": 1667311062,
+        "narHash": "sha256-r3RYCjultAJRDXt/ZFlqc1mv8Q9b50DKnf9fwZQsHpc=",
         "owner": "nim-nix-pkgs",
         "repo": "ptrace",
-        "rev": "21f97586c3d90d2c3f9129b7af49e71534b931a7",
+        "rev": "012726947172e3fb94a553442960105c081bfcc7",
         "type": "github"
       },
       "original": {
@@ -74,11 +74,11 @@
       },
       "locked": {
         "dir": "0_0_3",
-        "lastModified": 1662245853,
-        "narHash": "sha256-u9ubhGjqDMVG0Eeg/WilPnw2VLnp7K967fGJgVn1jqM=",
+        "lastModified": 1667311062,
+        "narHash": "sha256-r3RYCjultAJRDXt/ZFlqc1mv8Q9b50DKnf9fwZQsHpc=",
         "owner": "nim-nix-pkgs",
         "repo": "ptrace",
-        "rev": "21f97586c3d90d2c3f9129b7af49e71534b931a7",
+        "rev": "012726947172e3fb94a553442960105c081bfcc7",
         "type": "github"
       },
       "original": {
@@ -101,15 +101,42 @@
       },
       "locked": {
         "dir": "0_0_4",
-        "lastModified": 1662245853,
-        "narHash": "sha256-u9ubhGjqDMVG0Eeg/WilPnw2VLnp7K967fGJgVn1jqM=",
+        "lastModified": 1667311062,
+        "narHash": "sha256-r3RYCjultAJRDXt/ZFlqc1mv8Q9b50DKnf9fwZQsHpc=",
         "owner": "nim-nix-pkgs",
         "repo": "ptrace",
-        "rev": "21f97586c3d90d2c3f9129b7af49e71534b931a7",
+        "rev": "012726947172e3fb94a553442960105c081bfcc7",
         "type": "github"
       },
       "original": {
         "dir": "0_0_4",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "ptrace",
+        "type": "github"
+      }
+    },
+    "ptrace-0_0_5": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-ptrace-0_0_5": "src-ptrace-0_0_5"
+      },
+      "locked": {
+        "dir": "0_0_5",
+        "lastModified": 1667311062,
+        "narHash": "sha256-r3RYCjultAJRDXt/ZFlqc1mv8Q9b50DKnf9fwZQsHpc=",
+        "owner": "nim-nix-pkgs",
+        "repo": "ptrace",
+        "rev": "012726947172e3fb94a553442960105c081bfcc7",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_0_5",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "ptrace",
@@ -128,11 +155,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1662245853,
-        "narHash": "sha256-u9ubhGjqDMVG0Eeg/WilPnw2VLnp7K967fGJgVn1jqM=",
+        "lastModified": 1667311062,
+        "narHash": "sha256-r3RYCjultAJRDXt/ZFlqc1mv8Q9b50DKnf9fwZQsHpc=",
         "owner": "nim-nix-pkgs",
         "repo": "ptrace",
-        "rev": "21f97586c3d90d2c3f9129b7af49e71534b931a7",
+        "rev": "012726947172e3fb94a553442960105c081bfcc7",
         "type": "github"
       },
       "original": {
@@ -150,6 +177,7 @@
         "ptrace-0_0_2": "ptrace-0_0_2",
         "ptrace-0_0_3": "ptrace-0_0_3",
         "ptrace-0_0_4": "ptrace-0_0_4",
+        "ptrace-0_0_5": "ptrace-0_0_5",
         "ptrace-master": "ptrace-master"
       }
     },
@@ -200,6 +228,23 @@
       "original": {
         "owner": "ba0f3",
         "ref": "refs/tags/0.0.4",
+        "repo": "ptrace.nim",
+        "type": "github"
+      }
+    },
+    "src-ptrace-0_0_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1665590127,
+        "narHash": "sha256-40H4MEFagzYQOd2VBhnh+G3wtQPhsRvRCWoghKRKo50=",
+        "owner": "ba0f3",
+        "repo": "ptrace.nim",
+        "rev": "3e9a6fb3c5872d5371df48a7128db7019492ae18",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ba0f3",
+        "ref": "refs/tags/0.0.5",
         "repo": "ptrace.nim",
         "type": "github"
       }
